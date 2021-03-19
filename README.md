@@ -24,7 +24,7 @@ Bloom filter implementation for BIN-702
 | Is in Collection (ms) | 0   | 0            |
 | Always Right          | ✅  | ❌           |
 
-## Possible Applications in Bioscience
+## Possible Applications in Bioinformatics
 
 - Sequence characterization
 - Genome assembly
