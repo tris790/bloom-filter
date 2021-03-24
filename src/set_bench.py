@@ -19,7 +19,7 @@ for word in words:
 
 end_time = time.time_ns()
 elapsed_time = end_time - start_time
-print(f"Time to add all elements: {elapsed_time}ns")
+print(f"Time to add all elements: {elapsed_time}ns ({elapsed_time / 1000000000}s)")
 
 start_time = time.time_ns()
 for word in words:
@@ -28,7 +28,7 @@ for word in words:
 
 end_time = time.time_ns()
 elapsed_time = end_time - start_time
-print(f"Time to know if the elements were present: {elapsed_time}ns")
+print(f"Time to know if the elements were present: {elapsed_time}ns ({elapsed_time / 1000000000}s)")
 
 current, peak = tracemalloc.get_traced_memory()
 print(
