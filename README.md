@@ -10,7 +10,7 @@ Bloom filter implementation for BIN-702
 ### Prerequisites
 
 [python 3.X](https://www.python.org/downloads/)  
-[mmh3 lib](pip install mmh3)
+mmh3 lib -> pip install mmh3
 
 ## Running the benchmark
 
