@@ -4,17 +4,17 @@ Bloom filter implementation for BIN-702
 
 ## Getting Started
 
-    > clone the repository
+    > clone the repository  
     > run the main.py to start the benchmarks
 
 ### Prerequisites
 
-[python 3.X](https://www.python.org/downloads/)
+[python 3.X](https://www.python.org/downloads/)  
 [mmh3 lib](pip install mmh3)
 
 ## Running the benchmark
 
-    > cd src/
+    > cd src/  
     > python main.py
 
 ### Benchmark results
